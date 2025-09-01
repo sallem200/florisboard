@@ -1124,6 +1124,21 @@
     <plurals name="unit__candidates__written">
         <item quantity="one">{v} candidate</item>
         <item quantity="other">{v} candidates</item>
-    </plurals>
+    </plurals></resources>
+<string name="extension_label">AI Assistant</string>
+<string name="extension_description">Integrates an AI chat dialog </string>
+<string name="action_open_dialog_label">Open AI Dialog</string>
+<string name="action_open_dialog_desc">Open a chat window with the AI assistant.</string>
+    <?xml version="1.0" encoding="utf-8"?>
+    </resources>
+    // ...existing code...
 
-</resources>
+    <!-- AI Assistant strings -->
+<string name="extension_label">AI Ассистент</string>
+<string name="extension_description">Интегрирует чат-диалог с ИИ на базе Gemini. Обеспечивает генерацию текста, перевод и голосовой ввод.</string>
+<string name="action_open_dialog_label">Открыть AI Ассистент</string>
+<string name="action_open_dialog_desc">Открыть окно чата для взаимодействия с ИИ ассистентом.</string>
+<string name="ai_assistant_button_desc">AI Ассистент</string>
+
+    <!-- Action strings -->
+    // ...existing code...
