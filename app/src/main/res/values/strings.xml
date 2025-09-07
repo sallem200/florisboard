@@ -1125,5 +1125,3 @@
         <item quantity="one">{v} candidate</item>
         <item quantity="other">{v} candidates</item>
     </plurals>
-
-</resources>

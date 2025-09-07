@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension xmlns:floris="http://schemas.android.com/apk/res-auto"
+    floris:id="ai_assistant"
+    floris:label="@string/extension_label"
+    floris:description="@string/extension_description"
+    floris:apiVersion="1">
+
+    <!-- Уникальный ID внутри FlorisBoard -->
+    <!-- Название, которое увидят пользователи в настройках -->
+    <!-- Версия API расширения -->
+
+    <!-- ОПРЕДЕЛЯЕМ НАБОР ДЕЙСТВИЙ (ACTIONS), которые предоставляет аддон -->
+    <action
+        floris:id="open_ai_dialog"
+        floris:label="@string/action_open_dialog_label"
+        floris:description="@string/action_open_dialog_desc" />
+
+    <!-- В будущем можно добавить другие действия, например: -->
+    <!-- <action floris:id="replace_text" ... /> -->
+
+</extension>
